@@ -24,15 +24,16 @@ https://bullstocks-app.vercel.app/
 ⭐ Star me on GitHub — it helps!
 
 ## Sections 📚
-✔️ Home
-✔️ Market
-✔️ News
-✔️ Account
-✔️ PortFolio
-✔️ Login/Register/Forget Password
-✔️ Payment 
-✔️ Transaction History
+✔️ Home\
+✔️ Market\
+✔️ News\
+✔️ Account\
+✔️ PortFolio\
+✔️ Login/Register/Forget Password\
+✔️ Payment\
+✔️ Transaction History\
 
 
 ## Tools Used 🛠️
-Vercel - To host my website (MERN Stack).
+✔️ Vercel - To host my website\
+✔️ MERN Stack For Development
