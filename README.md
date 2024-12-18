@@ -31,7 +31,7 @@ https://bullstocks-app.vercel.app/
 ✔️ PortFolio\
 ✔️ Login/Register/Forget Password\
 ✔️ Payment\
-✔️ Transaction History\
+✔️ Transaction History
 
 
 ## Tools Used 🛠️
