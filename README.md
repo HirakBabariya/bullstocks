@@ -1,28 +1,29 @@
-BullStocks - Stock Trading App 🔥
+#### BullStocks - Stock Trading App 🔥
 https://bullstocks-app.vercel.app/
 
-Website Preview
-Home Page
+#### Website Preview
+
+#### Home Page
 <img src="website_images/home.png" width="900">
 
-Market Page
+#### Market Page
 <img src="website_images/market.png" width="900">
 
-News Page
+#### News Page
 <img src="website_images/news.png" width="900">
 
-Stock Page
+#### Stock Page
 <img src="website_images/stock.png" width="900">
 
-Portfolio Page
+#### Portfolio Page
 <img src="website_images/portfolio.png" width="900">
 
-Account Page
+#### Account Page
 <img src="website_images/account.png" width="900">
 
 ⭐ Star me on GitHub — it helps!
 
-Sections 📚
+## Sections 📚
 ✔️ Home
 ✔️ Market
 ✔️ News
@@ -33,5 +34,5 @@ Sections 📚
 ✔️ Transaction History
 
 
-Tools Used 🛠️
+## Tools Used 🛠️
 Vercel - To host my website (MERN Stack).
