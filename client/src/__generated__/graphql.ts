@@ -194,6 +194,8 @@ export type QueryStockArgs = {
 };
 
 export type Stock = {
+  shares: Scalars['Float']['output'];
+  initialInvestment: Scalars['Float']['output'];
   country: Scalars['String']['output'];
   currency: Scalars['String']['output'];
   exchange: Scalars['String']['output'];
