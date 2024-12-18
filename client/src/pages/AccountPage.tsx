@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { AuthState } from '../types';
-import { GET_TRANSACTIONS, DEPOSIT, WITHDRAW, CREATE_STRIPE_SESSION, CREATE_STRIPE_ACCOUNT_LINK, VERIFY_PAYMENT } from '../graphql';
+import { GET_TRANSACTIONS, WITHDRAW, CREATE_STRIPE_SESSION, CREATE_STRIPE_ACCOUNT_LINK, VERIFY_PAYMENT } from '../graphql';
 import { UPDATE_BALANCE } from '../redux/actions';
 import { Tab } from '@headlessui/react';
 import { useQuery, useMutation } from '@apollo/client';

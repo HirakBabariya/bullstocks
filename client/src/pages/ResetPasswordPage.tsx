@@ -24,6 +24,8 @@ const ResetPassword: React.FC = () => {
         setErrors('');
         navigate('/');
         alert('Password reset successful');
+        console.log(data);
+        
       })
       .catch((err) => {
         setErrors(err?.message);

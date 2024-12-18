@@ -83,7 +83,7 @@
 
 
 import { useEffect, useState } from 'react';
-import { useQuery, gql } from '@apollo/client';
+import { useQuery } from '@apollo/client';
 import { GET_MARKET_NEWS } from '../graphql';
 
 const LIMIT = 10; // Number of news items to fetch per request
@@ -98,6 +98,8 @@ export default function NewsPage() {
         onCompleted: (initialData) => {
             // Initialize with the first set of news
             setAllNews(initialData.getMarketNews);
+            console.log(data);
+            
         },
     });
 
