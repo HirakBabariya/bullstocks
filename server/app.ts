@@ -81,7 +81,9 @@ const init = async () => {
   );
 
   // MongoDB connection URI using environment variables
-  const uri = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@hirakbabariya.pruqh.mongodb.net/${process.env.MONGO_DB}?retryWrites=true&w=majority`;
+  // const uri = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@hirakbabariya.pruqh.mongodb.net/${process.env.MONGO_DB}?retryWrites=true&w=majority`;
+  const uri = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@cluster0.gjhevbl.mongodb.net/${process.env.MONGO_DB}?retryWrites=true&w=majority`;
+
   // Connect to MongoDB
   mongoose
     .connect(uri)
