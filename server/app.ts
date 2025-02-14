@@ -103,6 +103,7 @@ const init = async () => {
   // Set up WebSocket server for real-time communication
   const io = new Server(httpServer, {
     path: "/socket.io",
+    cors: { origin: "https://bullstocks.vercel.app"}
   });
 
   io.on("connection", (socket) => {
